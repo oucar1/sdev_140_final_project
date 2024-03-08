@@ -1,3 +1,15 @@
+# Ozgur Ucar - C06566469
+# M08 Final Project
+
+"""
+This Python program is a financial management tool designed for users to easily track their income and expenses. 
+It allows for the input of income and expense types and amounts. The program maintains separate lists for income and expenses, 
+and upon clicking the "Calculate" button, it opens a window displaying monthly and yearly totals, net profit or loss, and yearly totals categorized by types. 
+The result window uses colored labels and visuals to represent the financial status, providing a quick overview. 
+Additionally, the program ensures a clean start for each tracking period by clearing the lists when the result window is closed.
+"""
+
+
 import tkinter as tk
 from tkinter import ttk, messagebox
 from PIL import Image, ImageTk
